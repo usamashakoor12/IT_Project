@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-grid: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.08) 1px, transparent 0);
+}
+body {
+  background-image: var(--bg-grid);
+  background-size: 24px 24px;
+}
